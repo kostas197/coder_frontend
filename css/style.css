@@ -1,0 +1,79 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*quitar puntos a todas las listas desordenada y pone la lista en modo horizontal*/
+nav{
+    display: inline;
+    text-align: right;
+    display: block;
+    padding-bottom: 10px;
+}
+
+h1,h2{
+    text-align: center;
+}
+h3{
+    text-align: left;
+}
+
+form label{
+    display: block;
+}
+
+/*elimina los subrayados de los links y on hover, marca el color rojo */
+a{
+    text-decoration: none;
+    margin-inline: 2px;
+}
+a:hover{
+    color: red;
+}
+
+section{
+    clear: both;
+}
+
+/*línea divisoria entre main y header*/
+.divisor{
+    margin-top: 15px;
+    padding: 1px;
+    background-color: #F74922;
+    clear: both;
+}
+
+footer{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+br{
+    clear: both;
+}
+
+
+/*clases para los distintos elementos*/
+.imgIzquierda{
+    float: left;
+}
+.logo{
+    float: left;
+    height: 40px;
+    width: 75px;
+}
+
+.trabajaConNosotros{
+    float: right;
+    padding-top: 30px;
+}
+
+#accesoPlataforma{
+    float: right;
+}
+
+.boton{
+    background-color: lightsalmon;
+}
