@@ -3,12 +3,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*quitar puntos a todas las listas desordenada y pone la lista en modo horizontal*/
+/*
 nav{
     display: inline;
     text-align: right;
     display: block;
     padding-bottom: 10px;
-}
+    border-bottom: 1px solid #F74922;
+}*/
 
 h1,h2{
     text-align: center;
@@ -33,17 +35,27 @@ a:hover{
 section{
     clear: both;
 }
-
-/*línea divisoria entre main y header*/
-.divisor{
-    margin-top: 15px;
-    padding: 1px;
-    background-color: #F74922;
-    clear: both;
-}
-
+/*
 footer{
     text-align: center;
+}*/
+.contenedor-footer {
+    display: flex;
+    justify-content: center; /* Para centrar las imágenes horizontalmente */
+    align-items: center; /* Para centrar las imágenes verticalmente */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente línea en dispositivos pequeños */
+}
+
+.contenedor-footer2{
+    text-align: right;
+    padding-right: 2px;
+    padding-top: 10px;
+}
+
+.contenedor-footer img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Espacio entre las imágenes */
 }
 
 td{

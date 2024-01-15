@@ -9,20 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <img src="assets/logo.webp" alt="Logo de la Empresa" class="logo">
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="html/flota.html">Flota</a>
-            <a href="html/servicios.html">Servicios</a>
-            <a href="html/contacto.html">Contacto</a>
-            <a href="html/accesoPlataforma.html">Acceso_Plataforma</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.webp" alt="logo empresa" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/flota.html">Flota</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/accesoPlataforma.html">Acceso Plataforma</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <div class="divisor">
-    </div>
     
     <main>
         <h1>Bienvenido a HMSA</h1>
@@ -53,18 +73,17 @@
         </section>
     </main>
     
-    <div class="divisor">
-    </div>
-
     <footer>
-        <a href="https://instagram.com">
-            <img src="../assets/instagram-48.png" alt="siguenos en instagram">
-        </a>
-        <a href="https://linkedin.com">
-            <img src="../assets/linkedin-48.png" alt="siguenos en linkedin">
-        </a>
-        <a href="trabajaConNosotros.html" class="trabajaConNosotros">Trabaja con Nosotros</a>
+    <div class="contenedor-footer">
+        <a href="https://intagram.com"><img src="assets/instagram-48.png" alt="siguenos en instagram"></a>
+        <a href="https://linkedin.com"><img src="assets/linkedin-48.png" alt="siguenos en linkedin"></a>
+      </div>
+      <div class="contenedor-footer2">
+        <a href="html/accesoPlataforma.html" class="nav-link">Acceso Plataforma</a>
+        <p>&copy curso coder 2024, full stack</p>
+      </div>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
