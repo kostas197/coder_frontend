@@ -70,6 +70,7 @@ br{
 /*clases para los distintos elementos*/
 .imgIzquierda{
     float: left;
+    width: 100%;
 }
 .logo{
     float: left;
@@ -88,4 +89,24 @@ br{
 
 .boton{
     background-color: lightsalmon;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgIzquierda{
+        width: 100%;
+    }
+  }
+  
+  /* Estilos para pantallas medianas (601px - 900px) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .imgIzquierda{
+        width: 70%;
+    }
+  }
+  
+  /* Estilos para pantallas grandes (más de 900px) */
+  @media only screen and (min-width: 901px) {
+    .imgIzquierda{
+        width: 60%;
+    }
 }
