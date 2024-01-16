@@ -3,14 +3,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*quitar puntos a todas las listas desordenada y pone la lista en modo horizontal*/
-/*
+
 nav{
-    display: inline;
-    text-align: right;
-    display: block;
-    padding-bottom: 10px;
     border-bottom: 1px solid #F74922;
-}*/
+}
 
 h1,h2{
     text-align: center;
