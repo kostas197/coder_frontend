@@ -7,6 +7,11 @@ body{
 nav{
     border-bottom: 1px solid #F74922;
 }
+/*
+main section p{
+    background-color: #F74922;
+}
+*/
 
 h1,h2{
     text-align: center;
@@ -20,12 +25,9 @@ form label{
 }
 
 /*elimina los subrayados de los links y on hover, marca el color rojo */
-a{
-    text-decoration: none;
-    margin-inline: 2px;
-}
+
 a:hover{
-    color: red;
+    color: red !important;
 }
 
 section{
