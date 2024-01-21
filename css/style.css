@@ -61,10 +61,6 @@ footer{
     margin: 10px; /* Espacio entre las imágenes */
 }
 
-td{
-    text-align: center;
-}
-
 br{
     clear: both;
 }

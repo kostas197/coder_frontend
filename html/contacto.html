@@ -43,33 +43,28 @@
             </div>
           </nav>
     </header>
-    <div class="divisor">
-    </div>
     
     <main>
-        <table>
-            <tr>
-                <td>
-                    <img src="../assets/mantenimiento.webp" alt="" class="imgIzquierda">    
-                </td>
-                <td>
-                    <form  id="accesoPlataforma" action="enviar_consulta.php" method="post">
-                        <label for="Usuario">Usuario:</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="nombre completo">
-                        <label for="Empresa">Empresa:</label>
-                        <input type="text" name="empresa" id="empresa">
-                        <label for="Consulta">Consulta:</label>
-                    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-                    <br><br>
-                    <input class="boton" type="button" value="ENVIAR">
-                </form>
-                </td>
-            </tr>
-    </table>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6">
+            <img src="../assets/mantenimiento.webp" alt="mantenimiento trabajando" class="img-fluid">    
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 d-flex align-items-center p-4">
+            <form  id="accesoPlataforma" action="enviar_consulta.php" method="post">
+              <label for="Usuario" class="form-label">Usuario:</label>
+              <input type="text" name="nombre" id="nombre" placeholder="nombre completo" class="form-control">
+              <label for="Empresa" class="form-label">Empresa:</label>
+              <input type="text" name="empresa" id="empresa" class="form-control">
+              <label for="Consulta" class="form-label">Consulta:</label>
+              <textarea name="consulta" id="consulta" cols="30" rows="10" class="form-control"></textarea>
+              <br><br>
+              <input class="boton" type="button" value="ENVIAR">
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
-    
-    <div class="divisor">
-    </div>
 
     <footer>
       <div class="contenedor-footer">

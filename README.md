@@ -1,3 +1,5 @@
+Actualizar texto. Ya es responsive index,flota, y acceso a plataforma. Falta Servicios.
+
 la página index fue modificada para ser responsive al igual que flota.html. Utilizando tanto bootrap en el header como código propio en la imagen principal utilizando media query s, que cambian el tamaño de la imagen dependiendo de la pantalla en la que se renderiza la imagen.
 
 El resto de la página quedó en su versión anterior, utilicé como commit inicial la preentrega1.
