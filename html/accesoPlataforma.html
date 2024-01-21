@@ -43,13 +43,11 @@
             </div>
           </nav>
     </header>
-    <div class="divisor">
-    </div>
     
     <main>
-        <h3>Vuelos en tiempo real</h3>
-        
-
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 p-2 d-flex justify-content-center">
         <form id="accesoPlataforma" action="login.php" method="post">
             <label for="usuario">Usuario:</label>
             <input type="text" id="usuario" name="usuario" required>
@@ -59,15 +57,18 @@
             <br><br>
             <button class="boton" type="submit">Iniciar Sesión</button>
         </form>
-        <iframe width="425" height="350" 
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 d-flex flex-column align-items-center">
+        <h3>Vuelos en tiempo real</h3>
+        <iframe width="370" height="350" class="map" scrolling="no"
         src="https://vuelos.cmc.ar" 
         style="border: 1px solid black">
         </iframe>
         <p><a href="https://vuelos.cmc.ar" target="_blank" class="nav-link">Abrir en una nueva pestaña</a></p>
-    </main>
-    
-    <div class="divisor">
+      </div>
     </div>
+      </div>
+    </main>
 
     <footer>
       <div class="contenedor-footer">
