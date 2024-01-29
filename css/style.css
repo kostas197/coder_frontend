@@ -67,10 +67,7 @@ br{
 
 
 /*clases para los distintos elementos*/
-.imgIzquierda{
-    float: left;
-    width: 100%;
-}
+
 .logo{
     float: left;
     height: 40px;
