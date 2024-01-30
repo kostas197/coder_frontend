@@ -1,0 +1,40 @@
+// _footer.scss
+
+@import 'variables';
+
+.contenedor-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-footer2{
+    text-align: right;
+    padding-right: 2px;
+    padding-top: 10px;
+}
+
+.contenedor-footer{
+    img{
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+.logo{
+    float: left;
+    height: 40px;
+    width: 75px;
+}
+
+.trabajaConNosotros{
+    float: right;
+    padding-top: 30px;
+}
+
+#accesoPlataforma
+{
+    float: right;
+}
