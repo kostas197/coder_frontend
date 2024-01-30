@@ -1,0 +1,17 @@
+.map{
+    @media only screen and (min-width: 201px) and (max-width: 600px){
+        width: 300px;
+      }
+    
+      @media only screen and (min-width: 601px) and (max-width: 900px){
+        width: 380px;
+      }
+    
+      @media only screen and (min-width: 901px) and (max-width: 1200px){
+        width: 460px;
+      }
+    
+      @media only screen and (min-width: 1200px){
+        width: 700px;
+      }
+}

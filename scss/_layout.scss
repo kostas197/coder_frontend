@@ -1,0 +1,38 @@
+@import 'variables';
+
+nav{
+    border-bottom: 1px solid $primary-color
+}
+
+.video{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1{
+    h2{
+        text-align: center;
+    }
+}
+
+h3{
+    text-align: left;
+}
+
+form label{
+    display: block;
+}
+
+a:hover{
+    color: red !important;
+}
+
+section{
+    clear: both;
+}
+
+.boton{
+    background-color: lightsalmon;
+}
