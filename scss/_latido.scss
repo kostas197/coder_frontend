@@ -1,0 +1,23 @@
+.latido-container {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .latido-container a img {
+    width: 70%;
+    height: 70%;
+    //object-fit: cover; // Para asegurar que la imagen se ajuste al contenedor manteniendo su relación de aspecto
+    animation: heartbeat 1s infinite;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.4); // Ajusta el valor de escala según el efecto deseado
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

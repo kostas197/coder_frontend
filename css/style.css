@@ -68,6 +68,9 @@ nav {
   display: block;
 }
 
+h1 {
+  text-align: center;
+}
 h1 h2 {
   text-align: center;
 }
@@ -92,4 +95,25 @@ section {
   background-color: lightsalmon;
 }
 
-/*# sourceMappingURL=style.css.map */
+.latido-container {
+  width: 50px;
+  height: 50px;
+}
+
+.latido-container a img {
+  width: 70%;
+  height: 70%;
+  animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=style.css.map */
